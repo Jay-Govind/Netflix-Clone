@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600;700&family=Poppins:wght@300&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #000;
+}
+.main {
+	background-image: url("images/bg.jpg");
+	background-position: center center;
+	background-size: max(1200px, 100vw);
+	background-repeat: no-repeat;
+	height: 80vh;
+	position: relative;
+}
+
+.main .box {
+	height: 80vh;
+	width: 100%;
+	opacity: 0.70;
+	position: absolute;
+	top: 0;
+	background-color: black;
+}
+
+nav {
+	margin: auto;
+	max-width: 60vw;
+	height: 100px;;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav img {
+	color: red;
+	width: 130px;
+	z-index: 10;
+	position: relative;
+}
+
+nav button {
+	z-index: 10;
+	position: relative;
+}
+
+.hero {
+	height: calc(100% - 100px);
+	color: white;
+	position: relative;
+	font-family: 'Martel Sans', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	/* gap: 20px; */
+	padding: 0 25px;
+}
+
+.hero > :nth-child(1) {
+	font-weight: 900;
+	font-size: 2.5rem;
+	text-align: center;
+}
+
+.hero > :nth-child(2) {
+	font-weight: 400;
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+.hero > :nth-child(3) {
+	top: 5px;
+	font-weight: 400;
+	font-size: 1.25rem;
+	text-align: center;
+}
+
+.separation {
+	height: 4px;
+	background-color: rgba(77, 75, 75, 0.801);
+	position: relative;
+	z-index: 20;
+}
+
+.btn {
+	padding: 3px 8px;
+	font-weight: bold;
+	color: #fff;
+	background-color: rgba(248, 243, 243, 0.020);
+	border-radius: 4px;
+	border: 1px solid white;
+	cursor: pointer;
+}
+
+.btn-red {
+	background-color: red;
+	color: #fff;
+	padding: 3px 24px;
+	font-size: 1.25rem;
+	border-radius: 4px;
+	font-weight: 400;
+}
+
+.btn-red-sm {
+	background-color: red;
+	color: #fff;
+}
+
+.hero-buttons {
+	display: flex;
+	margin-top: 20px;
+	gap: 20px;
+	align-items: center;
+	justify-content: center;
+}
+
+.main input {
+	padding: 7px 100px 8px 14px;
+	font-size: 0.75rem;
+	border-radius: 4px;
+	color: white;
+	font-weight: 700;
+	background-color: rgba(23, 23, 23, 0.7);
+	border: 1px solid rgba(246, 238, 238, 0.4);
+}
+
+.first {
+	margin: auto;
+	max-width: 70vw;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.secImg {
+	position: relative;
+}
+
+.secImg img {
+	width: 555px;
+	position: relative;
+	z-index: 10;
+}
+
+.secImg video {
+	position: absolute;
+	top: 51px;
+	right: 0px;
+	width: 555px;
+}
+  
+section.first>div {
+	display: flex;
+	flex-direction: column;
+	padding: 34px 0;
+}
+
+section.first>div :nth-child(1) {
+	font-size: 48px;
+	font-weight: bolder;
+}
+
+
+section.first>div :nth-child(2) {
+	font-size: 24px;
+}
+
+.faq h2 {
+	text-align: center;
+	font-size: 48px;
+}
+  
+.faq {
+	background: black;
+	color: white;
+	padding: 34px;
+}
+  
+.faqbox:hover {
+	background-color: #414141;
+	color: white;
+}
+  
+.faqbox svg {
+	filter: invert(1);
+}
+  
+.faqbox {
+	transition: all 1s ease-out;
+	font-size: 24px;
+	display: flex;
+	justify-content: space-between;
+	background-color: #2d2d2d;
+	padding: 24px;
+	max-width: 60vw;
+	margin: 34px auto;
+	cursor: pointer;
+}
+  
+footer {
+	color: white;
+	max-width: 60vw;
+	margin: auto;
+	padding: 60px;
+}
+  
+footer .questions {
+	padding: 34px 0;
+}
+  
+  
+.footer {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	color: white;
+}
+  
+
+.footer a {
+	font-size: 14px;
+	color: rgb(184, 178, 178);
+}
+  
+.footer-item {
+	display: flex;
+	flex-direction: column;
+	gap: 23px;
+}
+  
+  
+@media screen and (max-width: 1300px) {
+	nav{
+	    max-width: 90vw;
+	}
+	.first {
+	    flex-wrap: wrap;
+	}
+	.secImg img {
+	    width: 305px;
+	}
+	.secImg video {
+	    width: 305px;
+	}
+	.hero> :nth-child(1) {
+	    font-size: 32px;
+	}
+	.hero> :nth-child(2) {
+	    font-size: 18px;
+	}
+	.hero> :nth-child(3) {
+	    font-size: 18px;
+	}
+	.hero-buttons {
+	    display: flex;
+	    flex-direction: column;
+	    align-items: center;
+	    justify-content: center;
+	    gap: 16px;
+	}
+	.faq h2 {
+	    text-align: center;
+	    font-size: 32px;
+	}
+	footer {
+	    max-width: 90vw;
+	    padding: 75px 0;
+	}
+	.footer-item{
+	    align-items: center;
+	}
+	.footer {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 25px;
+	}
+}
