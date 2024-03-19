@@ -1,2 +1,2 @@
-# NetflixClone
-This is a clone of Netflix. This is the first responsive website created by me. For more details - visit "Readme.md".
+<h1 align="center">👋 Hi, I’m Jay Govind Kumar</h1>
+<h3 align="center">🌱 Do you want to see the output? Click me 👉<a href="https://jay-govind.github.io/NetflixClone/"><img src="./images/output.png"></a></h3>
