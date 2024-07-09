@@ -44,4 +44,4 @@ git clone https://github.com/Jay-Govind/Netflix-Clone.git
 |![3](<./images/bg3-output.png>)|
 
 ## ⚖️ License 
-> License - [Click Me]()
+> License - [Click Me](https://github.com/Jay-Govind/Netflix-Clone/blob/c8c9ba3f5329a818260bba6d6fd200d260e104fe/LICENSE)
