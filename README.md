@@ -13,7 +13,8 @@
 > <li> After that he will wait a little and confirm that it does exist on this site and you can continue in Google Search Console.</li>
 > <li> Go to the 'Overview' tag where you will see a red message that your site has been blocked due to suspected copying.</li>
 > <li> Go to the comment and select the option to send an email to Google and request the removal of the block and explain in the email that you are doing this for educational purposes and not stealing copyrights.</li>
-> <img src="./images/warning.png" alt="alt text" style="height:500px; width:100%;">
+|![Warning](<./images/warning.png>)|
+|-------------------------------|
 
 <br>
 
